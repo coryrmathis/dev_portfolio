@@ -5,7 +5,10 @@
   border-radius: 0 0 30px 30px;
   cursor: pointer;
   text-align: center;
-  line-height: 100px;
+}
+
+#about-heading {
+  margin-top: 30px;
 }
 
 #projects-toggle {
@@ -15,6 +18,9 @@
   border-radius: 30px 30px 0 0;
   cursor: pointer;
   text-align: center;
-  line-height: 100px;
   
+}
+
+#projects-heading {
+  margin-top: 35px;
 }
