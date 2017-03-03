@@ -6,4 +6,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: 'Poiret One', cursive;
+  font-size: 2em;
+  font-weight: 800;
 }
