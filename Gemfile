@@ -55,4 +55,5 @@ gem 'aws-sdk', '~> 2'
 gem "font-awesome-rails"
 gem 'jquery-ui-rails'
 gem "jquery-slick-rails"
+ 
 
