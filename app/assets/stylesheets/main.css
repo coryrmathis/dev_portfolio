@@ -2,11 +2,34 @@ html, body {
   height: 100%;
 }
 
-body{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-family: 'Poiret One', cursive;
-  font-size: 2em;
-  font-weight: 800;
+body h1{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3.5em;
+  font-weight: 100;
+  
 }
+
+#app-container{
+  background-color: lightblue;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-container {
+  position: absolute;
+  background-color: goldenrod;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+
+#projects-container {
+  position: absolute;
+  background-color: goldenrod;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+

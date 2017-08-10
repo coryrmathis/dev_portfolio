@@ -1,0 +1,10 @@
+{
+  "name": "dev_portfolio",
+  "version": "1.0.0",
+  "description": "Dev Portfolio",
+  "author": "Cory Mathis <coryrmathis@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

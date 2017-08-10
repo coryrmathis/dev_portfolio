@@ -1,26 +1,23 @@
-#about-toggle {
-  width: 100%;
-  height: 100px;
-  background-color: lightblue;
-  border-radius: 0 0 30px 30px;
-  cursor: pointer;
-  text-align: center;
+#landing-page-portrait{
+  border-radius: 100%;
 }
 
-#about-heading {
-  margin-top: 30px;
+#landing-page-about-btn {
+  margin-right: 10%;
 }
 
-#projects-toggle {
-  width: 100%;
-  height: 100px;
-  background-color: goldenrod;
-  border-radius: 30px 30px 0 0;
-  cursor: pointer;
-  text-align: center;
-  
+#landing-page-portfolio-btn{
+  margin-left: 10%;
 }
 
-#projects-heading {
-  margin-top: 35px;
+.landing-page-headings {
+  position: absolute;
+}
+
+#landing-page-header {
+  top: 10%
+}
+
+#landing-page-footer {
+  bottom: 10%;
 }
