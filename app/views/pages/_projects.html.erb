@@ -1,0 +1,15 @@
+<div style="display:none" id="projects-container">
+   <%=fa_icon("arrow-left 5x", role: "button", class: "back-btn")%>
+   <content>
+     <h1>Projects</h1>
+     <div class="container" id="projects-list">
+        <% @projects.each do |project| %>
+          <div class="col-md-12">
+            <h1><%= project.name %></h1>
+            <h3><%= project.url %></h3>
+          </div>
+
+        <% end %>
+     </div>
+   </content>
+</div>

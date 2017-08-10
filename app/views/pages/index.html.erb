@@ -1,22 +1,18 @@
-<div style="display:none" id="about-container">
-   asdf;alksdjfal;sdkjfas;lkdfjas;lkdfjas;dlkfjas;ldkfjas;lkdfjsd;lkfjasd;lfkajsdf;lksdj
-</div>
+<%=render "about"%>
+<%=render "projects"%>
 <div id="app-container">
   <header id="landing-page-header" class="landing-page-headings">
     <h1>Cory Mathis</h1>
   </header>
-  <%=fa_stacked_icon("info", base: "circle-thin", class: "fa-5x", id: "landing-page-about-btn")%>
-  
+  <%=fa_stacked_icon("info", base: "circle-thin", class: "fa-5x", id: "landing-page-about-btn", role: "button")%>
+
   <div>
     <%=image_tag(@portrait_url, id: "landing-page-portrait", size: "250x250")%>
   </div>
-  <%=fa_stacked_icon("code", base: "circle-thin", class: "fa-5x", id: "landing-page-portfolio-btn")%>
+  <%=fa_stacked_icon("code", base: "circle-thin", role: "button", class: "fa-5x", id: "landing-page-portfolio-btn")%>
   <footer id="landing-page-footer" class="landing-page-headings">
     <h1>Web Developer</h1>
   </footer>
-</div>
-<div id="projects-container">
-   asdf;alksdjfal;sdkjfas;lkdfjas;lkdfjas;dlkfjas;ldkfjas;lkdfjsd;lkfjasd;lfkajsdf;lksdj
 </div>
 
 

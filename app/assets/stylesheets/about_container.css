@@ -1,0 +1,12 @@
+#about-container .back-btn {
+  position: fixed;
+  float: left;
+  top: 2%;
+  left: 1%;
+}
+
+#about-container content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
