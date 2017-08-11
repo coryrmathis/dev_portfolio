@@ -5,9 +5,13 @@
      <div id="projects-list">
         <% @projects.each do |project| %>
           <div>
-            <h1><%= project.name %></h1>
-            <h3><%= project.url %></h3>
-            <div>
+            <div id="project-header" > 
+                <%=fa_icon("info-circle 3x", role: "button" )%>
+                <h2 id="project-name"><%= project.name %></h2> 
+                <%=fa_icon("external-link 3x", role: "button", href: project.url)%> 
+            </div>
+            
+            <div id="project-photo">
               <%=image_tag(project.photo_url, size: "600x350")%>
             </div>
           </div>
