@@ -12,7 +12,8 @@ $(document).ready(function(){
     var projectsList = $("#projects-list")
     projectsList.slick({
       init: aboutContainer.show("fold" ),
-      dots: true
+      dots: true,
+      infinite: false
     }) 
     
 

@@ -26,13 +26,13 @@
   justify-content: space-around;
 }
 
-
 #projects-list {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   max-width: 70%;
   margin: 0 auto; 
+  margin-top: 2%;
 }
 
 .slick-slide {
