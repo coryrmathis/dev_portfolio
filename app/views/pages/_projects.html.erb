@@ -1,3 +1,4 @@
+<%=render "project_description_modal"%>
 <div style="display:none" id="projects-container">
    <%=fa_icon("arrow-left 5x", role: "button", class: "back-btn")%>
    <content>
@@ -6,7 +7,7 @@
         <% @projects.each do |project| %>
           <div>
             <div id="project-header" > 
-                <%=fa_icon("info-circle 3x", role: "button" )%>
+                <%=fa_icon("info-circle 3x", role: "button", href: project_path(project) )%>
                 <h2 id="project-name"><%= project.name %></h2> 
                 <%=fa_icon("external-link 3x", role: "button", href: project.url)%> 
             </div>
