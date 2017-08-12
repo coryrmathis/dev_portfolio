@@ -20,6 +20,7 @@ $(document).ready(function(){
   $(document).on("click", "#project-header .fa-info-circle", function(){
     var descriptionModal = $("#projectDescriptionModal")
     var descriptionModalBody = $("#projectDescriptionModal .modal-body")
+    var descriptionModalTitle = $("#projectDescriptionModal .modal-title")
     var url = $(this).attr("href")
     $.ajax({
       method: "GET",
@@ -27,6 +28,7 @@ $(document).ready(function(){
     }).done(function(response){
       var description = response.description
       descriptionModalBody.html(response.description)
+      descriptionModalTitle.html(response.name)
       descriptionModal.modal()
 
     })
