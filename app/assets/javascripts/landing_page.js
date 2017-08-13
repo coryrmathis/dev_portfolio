@@ -15,8 +15,15 @@ $(document).ready(function(){
       dots: true,
       infinite: false
     }) 
-    
+  })
 
+  $(document).on("mouseenter", "#portrait-curtain", function(){
+    $("#landing-page-portrait").hide("fade")
+    $("#portrait-curtain .links").show("fade")
+  })
+  $(document).on("mouseleave", "#portrait-curtain", function(){
+    $("#landing-page-portrait").show("fade")
+    $("#portrait-curtain .links").hide("fade")
   })
 })
 

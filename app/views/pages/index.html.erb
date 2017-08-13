@@ -7,7 +7,13 @@
   <%=fa_stacked_icon("info", base: "circle-thin", class: "fa-5x", id: "landing-page-about-btn", role: "button")%>
 
   <div>
-    <%=image_tag(@portrait_url, id: "landing-page-portrait", size: "250x250")%>
+    <div id="portrait-curtain">
+      <%=image_tag(@portrait_url, id: "landing-page-portrait", size: "250x250")%>
+      <div class="links">
+        <%=link_to fa_icon("github 5x"), "https://github.com/coryrmathis"%>
+        <%=link_to fa_icon("linkedin 5x"), "https://www.linkedin.com/in/coryrmathis/"%>
+      </div>
+    </div>
   </div>
   <%=fa_stacked_icon("code", base: "circle-thin", role: "button", class: "fa-5x", id: "landing-page-portfolio-btn")%>
   <footer id="landing-page-footer" class="landing-page-headings">

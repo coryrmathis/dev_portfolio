@@ -2,6 +2,26 @@
   border-radius: 100%;
 }
 
+#portrait-curtain{
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  position: relative;
+}
+
+#portrait-curtain .links{
+  position: absolute;
+  bottom: 40%;
+  left: 20%;
+  z-index: 0;
+  display: none;
+}
+
+#portrait-curtain .links a{
+  color: black;
+  padding: 10px;
+}
+
 #landing-page-about-btn {
   margin-right: 10%;
 }
